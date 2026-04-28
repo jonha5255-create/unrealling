@@ -1,0 +1,4187 @@
+{
+	"__RootObjects": [
+		{
+			"__UObject": {
+				"Name": "brickHouseMap",
+				"Class": "uobject:/Script/Engine.World",
+				"Flags": 11
+			},
+			"__SerialData": [
+				false,
+				{
+					"__UObject": {
+						"Name": "PersistentLevel",
+						"Class": "uobject:/Script/Engine.Level",
+						"Flags": 8
+					},
+					"__SerialData": [
+						false,
+						"EQAAAA==",
+						{
+							"__UObject": {
+								"Name": "WorldSettings",
+								"Class": "uobject:/Script/Engine.WorldSettings",
+								"Flags": 8
+							},
+							"NavigationSystemConfig": {
+								"__UObject": {
+									"Name": "NavigationSystemModuleConfig_0",
+									"Class": "uobject:/Script/NavigationSystem.NavigationSystemModuleConfig",
+									"Flags": 0
+								},
+								"bAutoSpawnMissingNavData": true,
+								"NavigationSystemClass": {
+									"AssetPath": {
+										"PackageName": "/Script/NavigationSystem",
+										"AssetName": "NavigationSystemV1"
+									}
+								}
+							},
+							"BookmarkArray": [
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None",
+								"uobject:None"
+							],
+							"ActorGuid": {
+								"A": -2060272701,
+								"B": -2012529257,
+								"C": -1533879852,
+								"D": 1989271274
+							},
+							"ActorLabel": "WorldSettings"
+						},
+						{
+							"__UObject": {
+								"Name": "Brush_0",
+								"Class": "uobject:/Script/Engine.Brush",
+								"Flags": 8
+							},
+							"bNotForClientOrServer": true,
+							"Brush": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.Brush",
+							"BrushComponent": {
+								"__UObject": {
+									"Name": "BrushComponent0",
+									"Class": "uobject:/Script/Engine.BrushComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"Brush": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.Brush"
+							},
+							"bHidden": false,
+							"SpawnCollisionHandlingMethod": "AlwaysSpawn",
+							"RootComponent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.Brush_0.BrushComponent0",
+							"ActorGuid": {
+								"A": 808547627,
+								"B": 652818116,
+								"C": -1281963625,
+								"D": 875693962
+							},
+							"ActorLabel": "Brush0"
+						},
+						{
+							"__UObject": {
+								"Name": "DirectionalLight_1",
+								"Class": "uobject:/Script/Engine.DirectionalLight",
+								"Flags": 8
+							},
+							"ArrowComponent": {
+								"__UObject": {
+									"Name": "ArrowComponent0",
+									"Class": "uobject:/Script/Engine.ArrowComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"ArrowColor": {
+									"G": 255,
+									"R": 255
+								},
+								"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.DirectionalLight_1.LightComponent0"
+							},
+							"DirectionalLightComponent": {
+								"__UObject": {
+									"Name": "LightComponent0",
+									"Class": "uobject:/Script/Engine.DirectionalLightComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"OriginalLightGuid": {
+									"A": -1179256707,
+									"B": 1183427380,
+									"C": -1950161753,
+									"D": 285931918
+								},
+								"LightGuid": {
+									"A": 1316353494,
+									"B": 836241656,
+									"C": -457311732,
+									"D": -1707571125
+								},
+								"RelativeRotation": {
+									"Pitch": -32.704222407911978,
+									"Yaw": -147.9143635495152,
+									"Roll": 138.14525645850119
+								}
+							},
+							"LightComponent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.DirectionalLight_1.LightComponent0",
+							"RootComponent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.DirectionalLight_1.LightComponent0",
+							"ActorGuid": {
+								"A": 854982753,
+								"B": -1954529831,
+								"C": -1312199007,
+								"D": -810295321
+							},
+							"ActorLabel": "DirectionalLight"
+						},
+						{
+							"__UObject": {
+								"Name": "SkyLight_1",
+								"Class": "uobject:/Script/Engine.SkyLight",
+								"Flags": 8
+							},
+							"LightComponent": {
+								"__UObject": {
+									"Name": "SkyLightComponent0",
+									"Class": "uobject:/Script/Engine.SkyLightComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"bRealTimeCapture": true,
+								"OriginalLightGuid": {
+									"A": 2070218884,
+									"B": 1282689891,
+									"C": 723250850,
+									"D": -1168802858
+								},
+								"LightGuid": {
+									"A": -1759996979,
+									"B": 1537175024,
+									"C": -201881776,
+									"D": -873934888
+								}
+							},
+							"SpriteComponent": {
+								"__UObject": {
+									"Name": "Sprite",
+									"Class": "uobject:/Script/Engine.BillboardComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								]
+							},
+							"RootComponent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SkyLight_1.SkyLightComponent0",
+							"ActorGuid": {
+								"A": -2086927405,
+								"B": 1138179716,
+								"C": -1545299333,
+								"D": -1673296954
+							},
+							"ActorLabel": "SkyLight"
+						},
+						{
+							"__UObject": {
+								"Name": "SkyAtmosphere_1",
+								"Class": "uobject:/Script/Engine.SkyAtmosphere",
+								"Flags": 8
+							},
+							"SkyAtmosphereComponent": {
+								"__UObject": {
+									"Name": "SkyAtmosphereComponent",
+									"Class": "uobject:/Script/Engine.SkyAtmosphereComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA==",
+									"qeSrUw==",
+									"Xn3nRA==",
+									"svh8mQ==",
+									"yqODKQ=="
+								],
+								"bStaticLightingBuiltGUID": {
+									"A": 1403774121,
+									"B": 1156021598,
+									"C": -1719863118,
+									"D": 696493002
+								}
+							},
+							"ArrowComponent": {
+								"__UObject": {
+									"Name": "ArrowComponent",
+									"Class": "uobject:/Script/Engine.ArrowComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SkyAtmosphere_1.SkyAtmosphereComponent"
+							},
+							"SpriteComponent": {
+								"__UObject": {
+									"Name": "Sprite",
+									"Class": "uobject:/Script/Engine.BillboardComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SkyAtmosphere_1.SkyAtmosphereComponent"
+							},
+							"RootComponent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SkyAtmosphere_1.SkyAtmosphereComponent",
+							"ActorGuid": {
+								"A": 259377145,
+								"B": 1756050012,
+								"C": -2047838601,
+								"D": -128205428
+							},
+							"ActorLabel": "SkyAtmosphere"
+						},
+						{
+							"__UObject": {
+								"Name": "VolumetricCloud_1",
+								"Class": "uobject:/Script/Engine.VolumetricCloud",
+								"Flags": 8
+							},
+							"VolumetricCloudComponent": {
+								"__UObject": {
+									"Name": "VolumetricCloudComponent",
+									"Class": "uobject:/Script/Engine.VolumetricCloudComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"MaterialLifetimePtr": "uobject:/Engine/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.m_SimpleVolumetricCloud_Inst"
+							},
+							"SpriteComponent": {
+								"__UObject": {
+									"Name": "Sprite",
+									"Class": "uobject:/Script/Engine.BillboardComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.VolumetricCloud_1.VolumetricCloudComponent"
+							},
+							"RootComponent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.VolumetricCloud_1.VolumetricCloudComponent",
+							"ActorGuid": {
+								"A": -332592819,
+								"B": -613138677,
+								"C": -1977494177,
+								"D": -240510585
+							},
+							"ActorLabel": "VolumetricCloud"
+						},
+						{
+							"__UObject": {
+								"Name": "ExponentialHeightFog_1",
+								"Class": "uobject:/Script/Engine.ExponentialHeightFog",
+								"Flags": 8
+							},
+							"Component": {
+								"__UObject": {
+									"Name": "HeightFogComponent0",
+									"Class": "uobject:/Script/Engine.ExponentialHeightFogComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								]
+							},
+							"SpriteComponent": {
+								"__UObject": {
+									"Name": "Sprite",
+									"Class": "uobject:/Script/Engine.BillboardComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.ExponentialHeightFog_1.HeightFogComponent0"
+							},
+							"RootComponent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.ExponentialHeightFog_1.HeightFogComponent0",
+							"ActorGuid": {
+								"A": 1002029849,
+								"B": 642987770,
+								"C": -1350464138,
+								"D": 1157212257
+							},
+							"ActorLabel": "ExponentialHeightFog"
+						},
+						{
+							"__UObject": {
+								"Name": "PlayerStart_1",
+								"Class": "uobject:/Script/Engine.PlayerStart",
+								"Flags": 8
+							},
+							"ArrowComponent": {
+								"__UObject": {
+									"Name": "Arrow",
+									"Class": "uobject:/Script/Engine.ArrowComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.PlayerStart_1.CollisionCapsule"
+							},
+							"CapsuleComponent": {
+								"__UObject": {
+									"Name": "CollisionCapsule",
+									"Class": "uobject:/Script/Engine.CapsuleComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"AreaClass": "uobject:/Script/NavigationSystem.NavArea_Obstacle",
+								"RelativeLocation": {
+									"X": 330,
+									"Y": -39.999970022587547,
+									"Z": 92.000018432361856
+								},
+								"RelativeRotation": {
+									"Yaw": 179.99999860565393
+								}
+							},
+							"GoodSprite": {
+								"__UObject": {
+									"Name": "Sprite",
+									"Class": "uobject:/Script/Engine.BillboardComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.PlayerStart_1.CollisionCapsule"
+							},
+							"BadSprite": {
+								"__UObject": {
+									"Name": "Sprite2",
+									"Class": "uobject:/Script/Engine.BillboardComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.PlayerStart_1.CollisionCapsule"
+							},
+							"RootComponent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.PlayerStart_1.CollisionCapsule",
+							"ActorGuid": {
+								"A": 1161788993,
+								"B": -746637812,
+								"C": -1750671065,
+								"D": 1372761036
+							},
+							"ActorLabel": "PlayerStart"
+						},
+						{
+							"__UObject": {
+								"Name": "LevelInstance_0",
+								"Class": "uobject:/Script/Engine.LevelInstance",
+								"Flags": 8
+							},
+							"WorldAsset": "/Game/LEC03/House.House",
+							"LevelInstanceComponent": {
+								"__UObject": {
+									"Name": "Root",
+									"Class": "uobject:/Script/Engine.LevelInstanceComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"RelativeLocation": {
+									"X": -20,
+									"Y": 1.52587890625e-05,
+									"Z": -70.000000952398878
+								},
+								"bVisualizeComponent": true
+							},
+							"RootComponent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.LevelInstance_0.Root",
+							"ActorGuid": {
+								"A": -1161271388,
+								"B": -994298507,
+								"C": -1867214473,
+								"D": -698293766
+							},
+							"ActorLabel": "House"
+						},
+						{
+							"__UObject": {
+								"Name": "BP_elevator_C_1",
+								"Class": "uobject:/Game/MyMaps/BP_elevator.BP_elevator_C",
+								"Flags": 8
+							},
+							"floatingfloat": {
+								"__UObject": {
+									"Name": "floatingfloat",
+									"Class": "uobject:/Game/MyMaps/floatingfloat.floatingfloat_C",
+									"Flags": 0
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"UCSSerializationIndex": 0,
+								"bNetAddressable": true,
+								"CreationMethod": "SimpleConstructionScript"
+							},
+							"Box": {
+								"__UObject": {
+									"Name": "Box",
+									"Class": "uobject:/Script/Engine.BoxComponent",
+									"Flags": 0
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"OnComponentBeginOverlap": "(/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.BP_elevator_C_1.BndEvt__BP_elevator_Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature)",
+								"OnComponentEndOverlap": "(/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.BP_elevator_C_1.BndEvt__BP_elevator_Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature)",
+								"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.BP_elevator_C_1.StaticMeshComponent0",
+								"UCSSerializationIndex": 0,
+								"bNetAddressable": true,
+								"CreationMethod": "SimpleConstructionScript"
+							},
+							"StaticMeshComponent": {
+								"__UObject": {
+									"Name": "StaticMeshComponent0",
+									"Class": "uobject:/Script/Engine.StaticMeshComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA==",
+									"AAAAAA==",
+									false
+								],
+								"BodyInstance": {
+									"MaxAngularVelocity": 3600
+								},
+								"RelativeLocation": {
+									"X": 30,
+									"Y": 440
+								}
+							},
+							"bCanBeInCluster": false,
+							"RootComponent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.BP_elevator_C_1.StaticMeshComponent0",
+							"ActorGuid": {
+								"A": 1149011474,
+								"B": -501990141,
+								"C": -1691871085,
+								"D": 1716289739
+							},
+							"ActorLabel": "BP_elevator",
+							"BlueprintCreatedComponents": [
+								"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.BP_elevator_C_1.Box",
+								"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.BP_elevator_C_1.floatingfloat"
+							]
+						},
+						{
+							"__UObject": {
+								"Name": "BPP_Floor16x16_C_0",
+								"Class": "uobject:/Game/LEC03/BPP_Floor16x16.BPP_Floor16x16_C",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"Y16CLA==",
+								"yve7TA==",
+								"hcKZCA==",
+								"19URcg=="
+							],
+							"HierarchicalInstancedStaticMesh": {
+								"__UObject": {
+									"Name": "HierarchicalInstancedStaticMesh",
+									"Class": "uobject:/Script/Engine.HierarchicalInstancedStaticMeshComponent",
+									"Flags": 0
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA==",
+									"AAAAAA==",
+									false,
+									false,
+									true,
+									"gAAAAA==",
+									"JAAAAA==",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAecA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAecA=",
+									"AAAAAAAAecA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAecA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAecA=",
+									"AAAAAAAAicA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAicA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAecA=",
+									"AAAAAADAksA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAADAksA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAecA=",
+									"AAAAAAAAiUA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAiUA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAecA=",
+									"AAAAAAAAeUA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAeUA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAADAksA=",
+									"AAAAAAAAiUA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAicA=",
+									"AAAAAAAAiUA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAADAksA=",
+									"AAAAAAAAeUA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAicA=",
+									"AAAAAAAAeUA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAADAksA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAicA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAicA=",
+									"AAAAAAAAecA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAADAksA=",
+									"AAAAAAAAecA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAADAksA=",
+									"AAAAAAAAicA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAicA=",
+									"AAAAAADAksA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAicA=",
+									"AAAAAAAAicA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAADAksA=",
+									"AAAAAADAksA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAeUA=",
+									"AAAAAAAAiUA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAiUA=",
+									"AAAAAAAAiUA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAeUA=",
+									"AAAAAAAAeUA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAiUA=",
+									"AAAAAAAAeUA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAeUA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAiUA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAiUA=",
+									"AAAAAAAAecA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAeUA=",
+									"AAAAAAAAecA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAeUA=",
+									"AAAAAAAAicA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAiUA=",
+									"AAAAAADAksA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAiUA=",
+									"AAAAAAAAicA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAeUA=",
+									"AAAAAADAksA=",
+									"AAAAAAcANEA=",
+									"AAAAAAAA8D8=",
+									"BAAAAA==",
+									"AAAAAA==",
+									"QAAAAA==",
+									"FwAAAA==",
+									"AACWxA==",
+									"AACWxA==",
+									"AAAAAA==",
+									"AQAAAA==",
+									"AACWRA==",
+									"AACWRA==",
+									"RACgQQ==",
+									"AgAAAA==",
+									"AAAAAA==",
+									"IwAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACWxA==",
+									"AACWxA==",
+									"AAAAAA==",
+									"AwAAAA==",
+									"AAAAAA==",
+									"AACWRA==",
+									"RACgQQ==",
+									"DAAAAA==",
+									"AAAAAA==",
+									"EQAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AAAAAA==",
+									"AACWxA==",
+									"AAAAAA==",
+									"DQAAAA==",
+									"AACWRA==",
+									"AACWRA==",
+									"RACgQQ==",
+									"FgAAAA==",
+									"EgAAAA==",
+									"IwAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACWxA==",
+									"AABIxA==",
+									"AAAAAA==",
+									"/////w==",
+									"AABIxA==",
+									"AAAAAA==",
+									"RACgQQ==",
+									"/////w==",
+									"AAAAAA==",
+									"AQAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACWxA==",
+									"AAAAAA==",
+									"AAAAAA==",
+									"/////w==",
+									"AABIxA==",
+									"AABIRA==",
+									"RACgQQ==",
+									"/////w==",
+									"AgAAAA==",
+									"AwAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACWxA==",
+									"AABIRA==",
+									"AAAAAA==",
+									"/////w==",
+									"AADIww==",
+									"AACWRA==",
+									"RACgQQ==",
+									"/////w==",
+									"BAAAAA==",
+									"BQAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACWxA==",
+									"AACWxA==",
+									"AAAAAA==",
+									"/////w==",
+									"AADIww==",
+									"AABIxA==",
+									"RACgQQ==",
+									"/////w==",
+									"BgAAAA==",
+									"BwAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AABIxA==",
+									"AABIxA==",
+									"AAAAAA==",
+									"/////w==",
+									"AADIww==",
+									"AADIww==",
+									"RACgQQ==",
+									"/////w==",
+									"CAAAAA==",
+									"CAAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AABIxA==",
+									"AADIQw==",
+									"AAAAAA==",
+									"/////w==",
+									"AADIww==",
+									"AABIRA==",
+									"RACgQQ==",
+									"/////w==",
+									"CQAAAA==",
+									"CQAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AABIxA==",
+									"AADIww==",
+									"AAAAAA==",
+									"/////w==",
+									"AAAAAA==",
+									"AAAAAA==",
+									"RACgQQ==",
+									"/////w==",
+									"CgAAAA==",
+									"CwAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AABIxA==",
+									"AAAAAA==",
+									"AAAAAA==",
+									"/////w==",
+									"AAAAAA==",
+									"AADIQw==",
+									"RACgQQ==",
+									"/////w==",
+									"DAAAAA==",
+									"DQAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AADIww==",
+									"AADIQw==",
+									"AAAAAA==",
+									"/////w==",
+									"AAAAAA==",
+									"AACWRA==",
+									"RACgQQ==",
+									"/////w==",
+									"DgAAAA==",
+									"DwAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AADIww==",
+									"AACWxA==",
+									"AAAAAA==",
+									"/////w==",
+									"AAAAAA==",
+									"AADIww==",
+									"RACgQQ==",
+									"/////w==",
+									"EAAAAA==",
+									"EQAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AAAAAA==",
+									"AABIxA==",
+									"AAAAAA==",
+									"/////w==",
+									"AADIQw==",
+									"AAAAAA==",
+									"RACgQQ==",
+									"/////w==",
+									"EgAAAA==",
+									"EwAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AAAAAA==",
+									"AADIQw==",
+									"AAAAAA==",
+									"/////w==",
+									"AADIQw==",
+									"AACWRA==",
+									"RACgQQ==",
+									"/////w==",
+									"FAAAAA==",
+									"FQAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AAAAAA==",
+									"AACWxA==",
+									"AAAAAA==",
+									"/////w==",
+									"AABIRA==",
+									"AABIxA==",
+									"RACgQQ==",
+									"/////w==",
+									"FgAAAA==",
+									"FwAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AAAAAA==",
+									"AAAAAA==",
+									"AAAAAA==",
+									"/////w==",
+									"AABIRA==",
+									"AADIQw==",
+									"RACgQQ==",
+									"/////w==",
+									"GAAAAA==",
+									"GQAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AADIQw==",
+									"AABIxA==",
+									"AAAAAA==",
+									"/////w==",
+									"AABIRA==",
+									"AADIww==",
+									"RACgQQ==",
+									"/////w==",
+									"GgAAAA==",
+									"GgAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AADIQw==",
+									"AADIQw==",
+									"AAAAAA==",
+									"/////w==",
+									"AABIRA==",
+									"AABIRA==",
+									"RACgQQ==",
+									"/////w==",
+									"GwAAAA==",
+									"GwAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AADIQw==",
+									"AADIww==",
+									"AAAAAA==",
+									"/////w==",
+									"AACWRA==",
+									"AAAAAA==",
+									"RACgQQ==",
+									"/////w==",
+									"HAAAAA==",
+									"HQAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AADIQw==",
+									"AABIRA==",
+									"AAAAAA==",
+									"/////w==",
+									"AACWRA==",
+									"AACWRA==",
+									"RACgQQ==",
+									"/////w==",
+									"HgAAAA==",
+									"HwAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AABIRA==",
+									"AAAAAA==",
+									"AAAAAA==",
+									"/////w==",
+									"AACWRA==",
+									"AABIRA==",
+									"RACgQQ==",
+									"/////w==",
+									"IAAAAA==",
+									"IQAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AABIRA==",
+									"AACWxA==",
+									"AAAAAA==",
+									"/////w==",
+									"AACWRA==",
+									"AADIww==",
+									"RACgQQ==",
+									"/////w==",
+									"IgAAAA==",
+									"IwAAAA==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw==",
+									"AACAPw=="
+								],
+								"CachedBounds": [
+									{
+										"bIsValid": true,
+										"Hash": 4056778922,
+										"Value": {
+											"Origin": {
+												"Z": -10.000041961669922
+											}
+										}
+									}
+								],
+								"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.BPP_Floor16x16_C_0.Root",
+								"UCSSerializationIndex": 0,
+								"bNetAddressable": true,
+								"CreationMethod": "SimpleConstructionScript"
+							},
+							"LevelInstanceComponent": {
+								"__UObject": {
+									"Name": "Root",
+									"Class": "uobject:/Script/Engine.LevelInstanceComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"RelativeLocation": {
+									"Z": -20.000106811523438
+								},
+								"bVisualizeComponent": true
+							},
+							"RootComponent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.BPP_Floor16x16_C_0.Root",
+							"ActorGuid": {
+								"A": -1817746537,
+								"B": 1572026656,
+								"C": -1452261956,
+								"D": 228724344
+							},
+							"ActorLabel": "Floor16x16",
+							"BlueprintCreatedComponents": [
+								"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.BPP_Floor16x16_C_0.HierarchicalInstancedStaticMesh"
+							]
+						},
+						{
+							"__UObject": {
+								"Name": "BPP_NewMap_Child_C_1",
+								"Class": "uobject:/Game/LEC03/BPP_NewMap_Child.BPP_NewMap_Child_C",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"MuiETQ==",
+								"NiAjRA==",
+								"q7k9xA==",
+								"Cz8cqw=="
+							],
+							"InstancedStaticMesh": {
+								"__UObject": {
+									"Name": "InstancedStaticMesh",
+									"Class": "uobject:/Script/Engine.InstancedStaticMeshComponent",
+									"Flags": 0
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA==",
+									"AAAAAA==",
+									false,
+									false,
+									true,
+									"gAAAAA==",
+									"AQAAAA==",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAsD4=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAAAAA=",
+									"AAAAAAAA8D8=",
+									"BAAAAA==",
+									"AAAAAA=="
+								],
+								"CachedBounds": [
+									{
+										"bIsValid": true,
+										"Hash": 459023912,
+										"Value": {
+											"Origin": {
+												"X": 110,
+												"Y": 10,
+												"Z": 393.31647109985352
+											}
+										}
+									},
+									{
+										"bIsValid": true,
+										"Hash": 835314088,
+										"Value": {
+											"Origin": {
+												"X": 110,
+												"Y": 10,
+												"Z": 393.06801986694336
+											}
+										}
+									},
+									{
+										"bIsValid": true
+									}
+								],
+								"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.BPP_NewMap_Child_C_1.Root",
+								"UCSSerializationIndex": 0,
+								"bNetAddressable": true,
+								"CreationMethod": "SimpleConstructionScript"
+							},
+							"LevelInstanceComponent": {
+								"__UObject": {
+									"Name": "Root",
+									"Class": "uobject:/Script/Engine.LevelInstanceComponent",
+									"Flags": 262152
+								},
+								"__SerialData": [
+									false,
+									"AAAAAA=="
+								],
+								"RelativeLocation": {
+									"X": 110,
+									"Y": 10,
+									"Z": 350
+								},
+								"bVisualizeComponent": true
+							},
+							"RootComponent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.BPP_NewMap_Child_C_1.Root",
+							"ActorGuid": {
+								"A": -1346480665,
+								"B": 323762386,
+								"C": -1123186318,
+								"D": 1296477312
+							},
+							"ActorLabel": "BPP_NewMap_Child",
+							"BlueprintCreatedComponents": [
+								"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.BPP_NewMap_Child_C_1.InstancedStaticMesh"
+							]
+						},
+						{
+							"__UObject": {
+								"Name": "SM_AutoFence_C_7",
+								"Class": "uobject:/Game/LEC06/SM_AutoFence.SM_AutoFence_C",
+								"Flags": 8
+							},
+							"DefaultSceneRoot": {
+								"__UObject": {
+									"Name": "DefaultSceneRoot",
+									"Class": "uobject:/Script/Engine.SceneComponent",
+									"Flags": 0
+								},
+								"__SerialData": [
+									false,
+									"AQAAAA==",
+									"uobject:/Script/Engine.SceneComponent",
+									"RelativeLocation",
+									"AAAAAA==",
+									"AAAAAA==",
+									"AAAAAA==",
+									"AAAAAA=="
+								],
+								"RelativeLocation": {
+									"X": 185.73341306002044,
+									"Y": 222.64101369689928,
+									"Z": 7.0409691403483521e-05
+								},
+								"UCSSerializationIndex": 0,
+								"bNetAddressable": true,
+								"CreationMethod": "SimpleConstructionScript"
+							},
+							"FenceEnd": {
+								"X": 549.99999999999989,
+								"Y": 99.999999999999829
+							},
+							"UntDirection": {
+								"X": 0.98386991009990765,
+								"Y": 0.17888543819998295
+							},
+							"RootComponent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+							"ActorGuid": {
+								"A": 1083375651,
+								"B": 1867332355,
+								"C": -2146599256,
+								"D": -1851399809
+							},
+							"ActorLabel": "SM_AutoFence",
+							"BlueprintCreatedComponents": [
+								"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeRotation": {
+										"Yaw": 16.745777788956449,
+										"Roll": -3.7026529683073945e-25
+									},
+									"RelativeScale3D": {
+										"Z": 0.91638813734054569
+									},
+									"UCSSerializationIndex": 0,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_0",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 19.677398201998159,
+										"Y": 3.5777087639996523
+									},
+									"RelativeRotation": {
+										"Yaw": 10.178805294831079,
+										"Roll": -3.7026529683073945e-25
+									},
+									"RelativeScale3D": {
+										"Z": 1.0496697831153869
+									},
+									"UCSSerializationIndex": 1,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_1",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 39.354796403996318,
+										"Y": 7.1554175279993046
+									},
+									"RelativeRotation": {
+										"Yaw": 17.577712241013323,
+										"Roll": -1.4810611873229578e-24
+									},
+									"RelativeScale3D": {
+										"Z": 1.0244495940208436
+									},
+									"UCSSerializationIndex": 2,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_2",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 59.032194605994448,
+										"Y": 10.733126291998985
+									},
+									"RelativeRotation": {
+										"Yaw": 4.6335918339088389
+									},
+									"RelativeScale3D": {
+										"Z": 0.97771538019180304
+									},
+									"UCSSerializationIndex": 3,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_3",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 78.709592807992635,
+										"Y": 14.310835055998638
+									},
+									"RelativeRotation": {
+										"Yaw": 9.9041381510093665,
+										"Roll": -3.7026529683073945e-25
+									},
+									"RelativeScale3D": {
+										"Z": 0.88301156669855119
+									},
+									"UCSSerializationIndex": 4,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_4",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 98.386991009990766,
+										"Y": 17.88854381999829
+									},
+									"RelativeRotation": {
+										"Yaw": 11.432505551178743,
+										"Roll": -3.7026529683073945e-25
+									},
+									"RelativeScale3D": {
+										"Z": 0.95541520208120345
+									},
+									"UCSSerializationIndex": 5,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_5",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 118.0643892119889,
+										"Y": 21.466252583997942
+									},
+									"RelativeRotation": {
+										"Yaw": 15.858299437363428
+									},
+									"RelativeScale3D": {
+										"Z": 1.0578472286462786
+									},
+									"UCSSerializationIndex": 6,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_6",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 137.74178741398708,
+										"Y": 25.043961347997623
+									},
+									"RelativeRotation": {
+										"Yaw": 6.197360697586821
+									},
+									"RelativeScale3D": {
+										"Z": 0.90793694913387302
+									},
+									"UCSSerializationIndex": 7,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_7",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 157.41918561598521,
+										"Y": 28.621670111997275
+									},
+									"RelativeRotation": {
+										"Yaw": 3.8767330082252465
+									},
+									"RelativeScale3D": {
+										"Z": 1.0652806144952776
+									},
+									"UCSSerializationIndex": 8,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_8",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 177.0965838179834,
+										"Y": 32.199378875996928
+									},
+									"RelativeRotation": {
+										"Yaw": 15.348640147049705,
+										"Roll": -3.7026529683073945e-25
+									},
+									"RelativeScale3D": {
+										"Z": 0.95037537842988973
+									},
+									"UCSSerializationIndex": 9,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_9",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 196.77398201998153,
+										"Y": 35.77708763999658
+									},
+									"RelativeRotation": {
+										"Yaw": 6.1344916256263717
+									},
+									"RelativeScale3D": {
+										"Z": 0.98446790516376503
+									},
+									"UCSSerializationIndex": 10,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_10",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 216.45138022197966,
+										"Y": 39.354796403996261
+									},
+									"RelativeRotation": {
+										"Yaw": 18.010464373429105
+									},
+									"RelativeScale3D": {
+										"Z": 1.0056801110506057
+									},
+									"UCSSerializationIndex": 11,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_11",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 236.12877842397785,
+										"Y": 42.932505167995885
+									},
+									"RelativeRotation": {
+										"Yaw": 0.70463913996963157
+									},
+									"RelativeScale3D": {
+										"Z": 1.066635330915451
+									},
+									"UCSSerializationIndex": 12,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_12",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 255.80617662597598,
+										"Y": 46.510213931995565
+									},
+									"RelativeRotation": {
+										"Yaw": 10.456523600418853
+									},
+									"RelativeScale3D": {
+										"Z": 1.0250953733921051
+									},
+									"UCSSerializationIndex": 13,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_13",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 275.48357482797417,
+										"Y": 50.087922695995246
+									},
+									"RelativeRotation": {
+										"Yaw": 16.571821871598058
+									},
+									"RelativeScale3D": {
+										"Z": 1.0158510059118271
+									},
+									"UCSSerializationIndex": 14,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_14",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 295.1609730299723,
+										"Y": 53.66563145999487
+									},
+									"RelativeRotation": {
+										"Yaw": 16.220248881180563,
+										"Roll": -3.7026529683073945e-25
+									},
+									"RelativeScale3D": {
+										"Z": 1.0130433064699174
+									},
+									"UCSSerializationIndex": 15,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_15",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 314.83837123197043,
+										"Y": 57.243340223994551
+									},
+									"RelativeRotation": {
+										"Yaw": 9.6197059782341032
+									},
+									"RelativeScale3D": {
+										"Z": 0.96120609074831009
+									},
+									"UCSSerializationIndex": 16,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_16",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 334.51576943396867,
+										"Y": 60.821048987994175
+									},
+									"RelativeRotation": {
+										"Yaw": 14.99401539881973,
+										"Roll": -3.7026529683073945e-25
+									},
+									"RelativeScale3D": {
+										"Z": 0.86390514824539422
+									},
+									"UCSSerializationIndex": 17,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_17",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 354.1931676359668,
+										"Y": 64.398757751993855
+									},
+									"RelativeRotation": {
+										"Yaw": 7.7214548023536622,
+										"Roll": -7.405305936614789e-25
+									},
+									"RelativeScale3D": {
+										"Z": 0.96496139526367186
+									},
+									"UCSSerializationIndex": 18,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_18",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 373.87056583796493,
+										"Y": 67.976466515993536
+									},
+									"RelativeRotation": {
+										"Yaw": 13.441233340103913
+									},
+									"RelativeScale3D": {
+										"Z": 1.0527442198991777
+									},
+									"UCSSerializationIndex": 19,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_19",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 393.54796403996306,
+										"Y": 71.554175279993217
+									},
+									"RelativeRotation": {
+										"Yaw": 13.057920637924958
+									},
+									"RelativeScale3D": {
+										"Z": 0.85629627346992487
+									},
+									"UCSSerializationIndex": 20,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_20",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 413.22536224196119,
+										"Y": 75.131884043992841
+									},
+									"RelativeRotation": {
+										"Yaw": 11.049192848999786
+									},
+									"RelativeScale3D": {
+										"Z": 0.96708121478557585
+									},
+									"UCSSerializationIndex": 21,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_21",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 432.90276044395932,
+										"Y": 78.709592807992465
+									},
+									"RelativeRotation": {
+										"Yaw": 19.784811678726957
+									},
+									"RelativeScale3D": {
+										"Z": 0.91558793902397162
+									},
+									"UCSSerializationIndex": 22,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_22",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 452.58015864595745,
+										"Y": 82.287301571992145
+									},
+									"RelativeRotation": {
+										"Yaw": 4.1452958019569346
+									},
+									"RelativeScale3D": {
+										"Z": 0.98217260956764219
+									},
+									"UCSSerializationIndex": 23,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_23",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 472.2575568479557,
+										"Y": 85.865010335991826
+									},
+									"RelativeRotation": {
+										"Yaw": 15.177736941178127
+									},
+									"RelativeScale3D": {
+										"Z": 1.0585772228240968
+									},
+									"UCSSerializationIndex": 24,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_24",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 491.93495504995383,
+										"Y": 89.442719099991507
+									},
+									"RelativeRotation": {
+										"Yaw": 1.202090922196192
+									},
+									"RelativeScale3D": {
+										"Z": 0.92667836278676985
+									},
+									"UCSSerializationIndex": 25,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_25",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 511.61235325195196,
+										"Y": 93.020427863991131
+									},
+									"RelativeRotation": {
+										"Yaw": 2.3794948490455585
+									},
+									"RelativeScale3D": {
+										"Z": 0.88539109423756601
+									},
+									"UCSSerializationIndex": 26,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_26",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_7.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 531.28975145395009,
+										"Y": 96.598136627990812
+									},
+									"RelativeRotation": {
+										"Yaw": 12.554976645310218
+									},
+									"RelativeScale3D": {
+										"Z": 1.0411343663930894
+									},
+									"UCSSerializationIndex": 27,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								}
+							]
+						},
+						{
+							"__UObject": {
+								"Name": "SM_AutoFence_C_0",
+								"Class": "uobject:/Game/LEC06/SM_AutoFence.SM_AutoFence_C",
+								"Flags": 8
+							},
+							"DefaultSceneRoot": {
+								"__UObject": {
+									"Name": "DefaultSceneRoot",
+									"Class": "uobject:/Script/Engine.SceneComponent",
+									"Flags": 0
+								},
+								"__SerialData": [
+									false,
+									"AQAAAA==",
+									"uobject:/Script/Engine.SceneComponent",
+									"RelativeLocation",
+									"AAAAAA==",
+									"AAAAAA==",
+									"AAAAAA==",
+									"AAAAAA=="
+								],
+								"RelativeLocation": {
+									"X": 185.73341300000004,
+									"Y": -217.35898599999996,
+									"Z": 6.9999999999999994e-05
+								},
+								"UCSSerializationIndex": 0,
+								"bNetAddressable": true,
+								"CreationMethod": "SimpleConstructionScript"
+							},
+							"FenceEnd": {
+								"X": 540,
+								"Y": -70
+							},
+							"UntDirection": {
+								"X": 0.99170250666218829,
+								"Y": -0.12855402864139479
+							},
+							"RootComponent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+							"ActorGuid": {
+								"A": -477365140,
+								"B": -1530252351,
+								"C": -1761808755,
+								"D": 236513679
+							},
+							"ActorLabel": "SM_AutoFence2",
+							"BlueprintCreatedComponents": [
+								"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -4.8166895707924198
+									},
+									"RelativeScale3D": {
+										"Z": 1.0040165430307388
+									},
+									"UCSSerializationIndex": 0,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_0",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 19.83405013324375,
+										"Y": -2.5710805728278956
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -10.028640826590761
+									},
+									"RelativeScale3D": {
+										"Z": 1.0662492698431016
+									},
+									"UCSSerializationIndex": 1,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_1",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 39.668100266487528,
+										"Y": -5.1421611456557912
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -10.883159240134466
+									},
+									"RelativeScale3D": {
+										"Z": 0.86275399006903175
+									},
+									"UCSSerializationIndex": 2,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_2",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 59.502150399731306,
+										"Y": -7.7132417184836868
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -14.662571509726744
+									},
+									"RelativeScale3D": {
+										"Z": 1.0333780908584596
+									},
+									"UCSSerializationIndex": 3,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_3",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 79.336200532975056,
+										"Y": -10.284322291311582
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -8.3959008058388065
+									},
+									"RelativeScale3D": {
+										"Z": 0.86166600584983821
+									},
+									"UCSSerializationIndex": 4,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_4",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 99.170250666218863,
+										"Y": -12.855402864139478
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -3.7778402170021361
+									},
+									"RelativeScale3D": {
+										"Z": 1.0041990381479264
+									},
+									"UCSSerializationIndex": 5,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_5",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 119.00430079946261,
+										"Y": -15.426483436967374
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -16.874553283103211
+									},
+									"RelativeScale3D": {
+										"Z": 0.98735984683036804
+									},
+									"UCSSerializationIndex": 6,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_6",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 138.83835093270636,
+										"Y": -17.997564009795269
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -4.7336793741066279
+									},
+									"RelativeScale3D": {
+										"Z": 1.0318900126218797
+									},
+									"UCSSerializationIndex": 7,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_7",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 158.67240106595011,
+										"Y": -20.568644582623165
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -7.8361911376793181
+									},
+									"RelativeScale3D": {
+										"Z": 0.98105655431747441
+									},
+									"UCSSerializationIndex": 8,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_8",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 178.50645119919386,
+										"Y": -23.13972515545106
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -8.8420815070946048
+									},
+									"RelativeScale3D": {
+										"Z": 0.89095736667513847
+									},
+									"UCSSerializationIndex": 9,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_9",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 198.34050133243767,
+										"Y": -25.710805728278956
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -11.823129256613957
+									},
+									"RelativeScale3D": {
+										"Z": 0.95450971812009811
+									},
+									"UCSSerializationIndex": 10,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_10",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 218.17455146568142,
+										"Y": -28.281886301106852
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -9.540344556220278
+									},
+									"RelativeScale3D": {
+										"Z": 1.0778942185640337
+									},
+									"UCSSerializationIndex": 11,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_11",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 238.00860159892522,
+										"Y": -30.852966873934747
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -16.938031752951844
+									},
+									"RelativeScale3D": {
+										"Z": 1.0234388244152068
+									},
+									"UCSSerializationIndex": 12,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_12",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 257.84265173216897,
+										"Y": -33.424047446762643
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -4.27284963930438
+									},
+									"RelativeScale3D": {
+										"Z": 0.94986297458410263
+									},
+									"UCSSerializationIndex": 13,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_13",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 277.67670186541272,
+										"Y": -35.995128019590538
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -0.78885706270525835
+									},
+									"RelativeScale3D": {
+										"Z": 0.94325784951448444
+									},
+									"UCSSerializationIndex": 14,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_14",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 297.51075199865647,
+										"Y": -38.566208592418434
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -16.961225112326844
+									},
+									"RelativeScale3D": {
+										"Z": 1.0236283385753633
+									},
+									"UCSSerializationIndex": 15,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_15",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 317.34480213190022,
+										"Y": -41.13728916524633
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -7.7025199731666838
+									},
+									"RelativeScale3D": {
+										"Z": 1.0767290300130845
+									},
+									"UCSSerializationIndex": 16,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_16",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 337.17885226514397,
+										"Y": -43.708369738074225
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -7.9283572038490613
+									},
+									"RelativeScale3D": {
+										"Z": 0.93182347893714912
+									},
+									"UCSSerializationIndex": 17,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_17",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 357.01290239838784,
+										"Y": -46.279450310902121
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -13.086595614798766
+									},
+									"RelativeScale3D": {
+										"Z": 1.0782100892066957
+									},
+									"UCSSerializationIndex": 18,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_18",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 376.84695253163147,
+										"Y": -48.850530883730016
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -8.1718946298439352
+									},
+									"RelativeScale3D": {
+										"Z": 0.97888058245182041
+									},
+									"UCSSerializationIndex": 19,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_19",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 396.68100266487534,
+										"Y": -51.421611456557912
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -6.8168724378425916
+									},
+									"RelativeScale3D": {
+										"Z": 1.0742371875047685
+									},
+									"UCSSerializationIndex": 20,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_20",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 416.51505279811909,
+										"Y": -53.992692029385807
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -4.8319495519478135
+									},
+									"RelativeScale3D": {
+										"Z": 0.86369457095861435
+									},
+									"UCSSerializationIndex": 21,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_21",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 436.34910293136284,
+										"Y": -56.563772602213703
+									},
+									"RelativeRotation": {
+										"Yaw": 2.4796756902854629,
+										"Roll": -0
+									},
+									"RelativeScale3D": {
+										"Z": 1.0350978112220766
+									},
+									"UCSSerializationIndex": 22,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_22",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 456.18315306460659,
+										"Y": -59.134853175041599
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -14.75839956606219
+									},
+									"RelativeScale3D": {
+										"Z": 0.98126010656356821
+									},
+									"UCSSerializationIndex": 23,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_23",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 476.01720319785034,
+										"Y": -61.705933747869494
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -9.6367832025368081
+									},
+									"RelativeScale3D": {
+										"Z": 1.0471077638864519
+									},
+									"UCSSerializationIndex": 24,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_24",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 495.8512533310942,
+										"Y": -64.27701432069739
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -13.031662066825138
+									},
+									"RelativeScale3D": {
+										"Z": 1.02045563519001
+									},
+									"UCSSerializationIndex": 25,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_25",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 515.68530346433795,
+										"Y": -66.848094893525285
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -15.120349009879332
+									},
+									"RelativeScale3D": {
+										"Z": 0.94016937464475636
+									},
+									"UCSSerializationIndex": 26,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								},
+								{
+									"__UObject": {
+										"Name": "NODE_AddStaticMeshComponent-0_26",
+										"Class": "uobject:/Script/Engine.StaticMeshComponent",
+										"Flags": 0
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA==",
+										"AAAAAA==",
+										false
+									],
+									"AttachParent": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.SM_AutoFence_C_0.DefaultSceneRoot",
+									"RelativeLocation": {
+										"X": 535.5193535975817,
+										"Y": -69.419175466353181
+									},
+									"RelativeRotation": {
+										"Pitch": -0,
+										"Yaw": -13.32219847048114
+									},
+									"RelativeScale3D": {
+										"Z": 1.0401937872171403
+									},
+									"UCSSerializationIndex": 27,
+									"bNetAddressable": true,
+									"CreationMethod": "UserConstructionScript"
+								}
+							]
+						},
+						{
+							"__UObject": {
+								"Name": "brickHouseMap_C_1",
+								"Class": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap_C",
+								"Flags": 0
+							},
+							"ActorGuid": {
+								"A": -1140907433,
+								"B": 1164027299,
+								"C": 1033464766,
+								"D": -590622964
+							},
+							"ActorLabel": "brickHouseMap1"
+						},
+						"uobject:None",
+						"uobject:None",
+						"BwAAAA==",
+						"dW5yZWFsAA==",
+						"AAAAAA==",
+						"IgAAAA==",
+						"L0dhbWUvVGhpcmRQZXJzb24vTHZsX1RoaXJkUGVyc29uAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"YR4AAA==",
+						"AQAAAA==",
+						{
+							"__UObject": {
+								"Name": "Model_0",
+								"Class": "uobject:/Script/Engine.Model",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"AA==",
+								"AA==",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"DAAAAA==",
+								"AAAAAA==",
+								"DAAAAA==",
+								"AAAAAA==",
+								"QAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"GAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								{
+									"__UObject": {
+										"Name": "Polys_1",
+										"Class": "uobject:/Script/Engine.Polys",
+										"Flags": 8
+									},
+									"__SerialData": [
+										false,
+										"AAAAAA=="
+									]
+								},
+								"BAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"AAAAAA==",
+								true,
+								false,
+								"AAAAAA==",
+								"AAAAAA==",
+								"2Rmqtw==",
+								"N7eAWQ==",
+								"3VYDvw==",
+								"sqRu2A==",
+								"AAAAAA=="
+							]
+						},
+						"AAAAAA==",
+						{
+							"__UObject": {
+								"Name": "brickHouseMap",
+								"Class": "uobject:/Script/Engine.LevelScriptBlueprint",
+								"Flags": 9
+							},
+							"ParentClass": "uobject:/Script/Engine.LevelScriptActor",
+							"BlueprintType": "BPTYPE_LevelScript",
+							"BlueprintSystemVersion": 2,
+							"UbergraphPages": [
+								{
+									"__UObject": {
+										"Name": "EventGraph",
+										"Class": "uobject:/Script/Engine.EdGraph",
+										"Flags": 8
+									},
+									"Schema": "uobject:/Script/BlueprintGraph.EdGraphSchema_K2",
+									"Nodes": [
+										{
+											"__UObject": {
+												"Name": "K2Node_Event_0",
+												"Class": "uobject:/Script/BlueprintGraph.K2Node_Event",
+												"Flags": 8
+											},
+											"__SerialData": [
+												false,
+												"AgAAAA==",
+												false,
+												"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.brickHouseMap.EventGraph.K2Node_Event_0",
+												"7g30Yg==",
+												"s/rNRw==",
+												"tDzy2w==",
+												"GaKdLg==",
+												"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.brickHouseMap.EventGraph.K2Node_Event_0",
+												"7g30Yg==",
+												"s/rNRw==",
+												"tDzy2w==",
+												"GaKdLg==",
+												"OutputDelegate",
+												"",
+												"/////w==",
+												"AAAAAA==",
+												"AQ==",
+												"delegate",
+												"None",
+												"uobject:None",
+												"AA==",
+												false,
+												false,
+												"uobject:/Script/Engine.Actor",
+												"ReceiveBeginPlay",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												false,
+												false,
+												false,
+												"AAAAAA==",
+												"AAAAAA==",
+												"uobject:None",
+												"",
+												"AAAAAA==",
+												"AAAAAA==",
+												true,
+												true,
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												false,
+												"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.brickHouseMap.EventGraph.K2Node_Event_0",
+												"KZkmoQ==",
+												"2LoKTg==",
+												"rA8hFA==",
+												"H6VARQ==",
+												"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.brickHouseMap.EventGraph.K2Node_Event_0",
+												"KZkmoQ==",
+												"2LoKTg==",
+												"rA8hFA==",
+												"H6VARQ==",
+												"then",
+												"",
+												"/////w==",
+												"AAAAAA==",
+												"AQ==",
+												"exec",
+												"None",
+												"uobject:None",
+												"AA==",
+												false,
+												false,
+												"uobject:None",
+												"None",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												false,
+												false,
+												false,
+												"AAAAAA==",
+												"AAAAAA==",
+												"uobject:None",
+												"",
+												"AAAAAA==",
+												"AAAAAA==",
+												true,
+												true,
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA=="
+											],
+											"EventReference": {
+												"MemberParent": "uobject:/Script/Engine.Actor",
+												"MemberName": "ReceiveBeginPlay"
+											},
+											"bOverrideFunction": true,
+											"EnabledState": "Disabled",
+											"bCommentBubblePinned": true,
+											"bCommentBubbleVisible": true,
+											"NodeComment": "This node is disabled and will not be called.\nDrag off pins to build functionality.",
+											"NodeGuid": {
+												"A": 1582374923,
+												"B": 1103051894,
+												"C": 1996333211,
+												"D": 616804813
+											}
+										},
+										{
+											"__UObject": {
+												"Name": "K2Node_Event_1",
+												"Class": "uobject:/Script/BlueprintGraph.K2Node_Event",
+												"Flags": 8
+											},
+											"__SerialData": [
+												false,
+												"AwAAAA==",
+												false,
+												"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.brickHouseMap.EventGraph.K2Node_Event_1",
+												"CmWqIA==",
+												"bm+BQA==",
+												"oOtQYw==",
+												"KA05MQ==",
+												"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.brickHouseMap.EventGraph.K2Node_Event_1",
+												"CmWqIA==",
+												"bm+BQA==",
+												"oOtQYw==",
+												"KA05MQ==",
+												"OutputDelegate",
+												"",
+												"/////w==",
+												"AAAAAA==",
+												"AQ==",
+												"delegate",
+												"None",
+												"uobject:None",
+												"AA==",
+												false,
+												false,
+												"uobject:/Script/Engine.Actor",
+												"ReceiveTick",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												false,
+												false,
+												false,
+												"AAAAAA==",
+												"AAAAAA==",
+												"uobject:None",
+												"",
+												"AAAAAA==",
+												"AAAAAA==",
+												true,
+												true,
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												false,
+												"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.brickHouseMap.EventGraph.K2Node_Event_1",
+												"MNPNNQ==",
+												"OX+ASg==",
+												"sq9kpg==",
+												"eMwjjQ==",
+												"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.brickHouseMap.EventGraph.K2Node_Event_1",
+												"MNPNNQ==",
+												"OX+ASg==",
+												"sq9kpg==",
+												"eMwjjQ==",
+												"then",
+												"",
+												"/////w==",
+												"AAAAAA==",
+												"AQ==",
+												"exec",
+												"None",
+												"uobject:None",
+												"AA==",
+												false,
+												false,
+												"uobject:None",
+												"None",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												false,
+												false,
+												false,
+												"AAAAAA==",
+												"AAAAAA==",
+												"uobject:None",
+												"",
+												"AAAAAA==",
+												"AAAAAA==",
+												true,
+												true,
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												false,
+												"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.brickHouseMap.EventGraph.K2Node_Event_1",
+												"8qB7Lw==",
+												"mwvwTg==",
+												"vr4cBA==",
+												"qFFlyw==",
+												"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.brickHouseMap.EventGraph.K2Node_Event_1",
+												"8qB7Lw==",
+												"mwvwTg==",
+												"vr4cBA==",
+												"qFFlyw==",
+												"DeltaSeconds",
+												"",
+												"/////w==",
+												"JwAAAA==",
+												"RGVsdGEgU2Vjb25kcwpGbG9hdCAoc2luZ2xlLXByZWNpc2lvbikA",
+												"AQ==",
+												"real",
+												"float",
+												"uobject:None",
+												"AA==",
+												false,
+												false,
+												"uobject:None",
+												"None",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												false,
+												false,
+												false,
+												"BAAAAA==",
+												"MC4wAA==",
+												"BAAAAA==",
+												"MC4wAA==",
+												"uobject:None",
+												"",
+												"AAAAAA==",
+												"AAAAAA==",
+												true,
+												true,
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA==",
+												"AAAAAA=="
+											],
+											"EventReference": {
+												"MemberParent": "uobject:/Script/Engine.Actor",
+												"MemberName": "ReceiveTick"
+											},
+											"bOverrideFunction": true,
+											"NodePosY": 208,
+											"EnabledState": "Disabled",
+											"bCommentBubblePinned": true,
+											"bCommentBubbleVisible": true,
+											"NodeComment": "This node is disabled and will not be called.\nDrag off pins to build functionality.",
+											"NodeGuid": {
+												"A": -1755990383,
+												"B": 1121817531,
+												"C": 2100276905,
+												"D": 618960393
+											}
+										}
+									],
+									"bAllowDeletion": false,
+									"GraphGuid": {
+										"A": -542952061,
+										"B": 1204061558,
+										"C": -1276151663,
+										"D": -1376563276
+									}
+								}
+							],
+							"CategorySorting": [
+								"Event Graph"
+							],
+							"GeneratedClass": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap_C",
+							"bLegacyNeedToPurgeSkelRefs": false,
+							"BlueprintGuid": {
+								"A": 600651442,
+								"B": 1180408616,
+								"C": -55011419,
+								"D": -1066920689
+							}
+						},
+						"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.brickHouseMap_C_1",
+						"uobject:None",
+						"uobject:None",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AAAAAAAAAAA=",
+						"AA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA==",
+						"AAAAAA=="
+					],
+					"Model": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.Model_0",
+					"LevelScriptBlueprint": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.brickHouseMap",
+					"LevelScriptActor": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.brickHouseMap_C_1",
+					"LevelBuildDataId": {
+						"A": 1042668162,
+						"B": 1138551904,
+						"C": -1708281171,
+						"D": -177747716
+					},
+					"WorldSettings": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.WorldSettings",
+					"__IndirectlyReferenced": [
+						{
+							"__UObject": {
+								"Name": "Brush",
+								"Class": "uobject:/Script/Engine.Model",
+								"Flags": 8
+							},
+							"__SerialData": [
+								false,
+								"AA==",
+								"AA==",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAAAA=",
+								"AAAAAAAAYEA=",
+								"AAAAAAAAYEA=",
+								"AAAAAAAAYEA=",
+								"qkxY6Hq2a0A=",
+								"DAAAAA==",
+								"AAAAAA==",
+								"DAAAAA==",
+								"AAAAAA==",
+								"QAAAAA==",
+								"AAAAAA==",
+								"AAAAAA==",
+								"GAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								{
+									"__UObject": {
+										"Name": "Polys_0",
+										"Class": "uobject:/Script/Engine.Polys",
+										"Flags": 8
+									},
+									"__SerialData": [
+										false,
+										"BgAAAA==",
+										"AAAAww==",
+										"AAAAww==",
+										"AAAAww==",
+										"AACAvw==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAvw==",
+										"BAAAAA==",
+										"AAAAwwAAAMMAAADDAAAAwwAAAMMAAABDAAAAwwAAAEMAAABDAAAAwwAAAEMAAADD",
+										"AAAAAA==",
+										"uobject:None",
+										"None",
+										"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+										"/////w==",
+										"/////w==",
+										"AAAAQg==",
+										false,
+										false,
+										"AACAPw==",
+										false,
+										false,
+										"AAAAQQ==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AACAPw==",
+										"None",
+										"AAAAww==",
+										"AAAAQw==",
+										"AAAAww==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AAAAgA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAvw==",
+										"BAAAAA==",
+										"AAAAwwAAAEMAAADDAAAAwwAAAEMAAABDAAAAQwAAAEMAAABDAAAAQwAAAEMAAADD",
+										"AAAAAA==",
+										"uobject:None",
+										"None",
+										"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+										"/////w==",
+										"/////w==",
+										"AAAAQg==",
+										false,
+										false,
+										"AACAPw==",
+										false,
+										false,
+										"AAAAQQ==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AACAPw==",
+										"None",
+										"AAAAQw==",
+										"AAAAQw==",
+										"AAAAww==",
+										"AACAPw==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAvw==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAvw==",
+										"BAAAAA==",
+										"AAAAQwAAAEMAAADDAAAAQwAAAEMAAABDAAAAQwAAAMMAAABDAAAAQwAAAMMAAADD",
+										"AAAAAA==",
+										"uobject:None",
+										"None",
+										"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+										"/////w==",
+										"/////w==",
+										"AAAAQg==",
+										false,
+										false,
+										"AACAPw==",
+										false,
+										false,
+										"AAAAQQ==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AACAPw==",
+										"None",
+										"AAAAQw==",
+										"AAAAww==",
+										"AAAAww==",
+										"AAAAAA==",
+										"AACAvw==",
+										"AAAAAA==",
+										"AACAvw==",
+										"AAAAgA==",
+										"AAAAgA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAvw==",
+										"BAAAAA==",
+										"AAAAQwAAAMMAAADDAAAAQwAAAMMAAABDAAAAwwAAAMMAAABDAAAAwwAAAMMAAADD",
+										"AAAAAA==",
+										"uobject:None",
+										"None",
+										"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+										"/////w==",
+										"/////w==",
+										"AAAAQg==",
+										false,
+										false,
+										"AACAPw==",
+										false,
+										false,
+										"AAAAQQ==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AACAPw==",
+										"None",
+										"AAAAww==",
+										"AAAAQw==",
+										"AAAAQw==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AACAPw==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AAAAAA==",
+										"BAAAAA==",
+										"AAAAwwAAAEMAAABDAAAAwwAAAMMAAABDAAAAQwAAAMMAAABDAAAAQwAAAEMAAABD",
+										"AAAAAA==",
+										"uobject:None",
+										"None",
+										"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+										"/////w==",
+										"/////w==",
+										"AAAAQg==",
+										false,
+										false,
+										"AACAPw==",
+										false,
+										false,
+										"AAAAQQ==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AACAPw==",
+										"None",
+										"AAAAww==",
+										"AAAAww==",
+										"AAAAww==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAvw==",
+										"AACAPw==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AAAAAA==",
+										"AACAvw==",
+										"AAAAAA==",
+										"BAAAAA==",
+										"AAAAwwAAAMMAAADDAAAAwwAAAEMAAADDAAAAQwAAAEMAAADDAAAAQwAAAMMAAADD",
+										"AAAAAA==",
+										"uobject:None",
+										"None",
+										"uobject:/Engine/EngineMaterials/WorldGridMaterial.WorldGridMaterial",
+										"/////w==",
+										"/////w==",
+										"AAAAQg==",
+										false,
+										false,
+										"AACAPw==",
+										false,
+										false,
+										"AAAAQQ==",
+										"AAAAAA==",
+										"AACAPw==",
+										"AACAPw==",
+										"None"
+									]
+								},
+								"BAAAAA==",
+								"AAAAAA==",
+								"BAAAAA==",
+								"AAAAAA==",
+								true,
+								true,
+								"CAAAAA==",
+								"AAAAAA==",
+								"5Gf2SA==",
+								"sRJw4Q==",
+								"ZZKkFA==",
+								"cUFcAw==",
+								"AAAAAA=="
+							]
+						}
+					]
+				},
+				"AAAAAA==",
+				"AAAAAA=="
+			],
+			"ThumbnailInfo": {
+				"__UObject": {
+					"Name": "WorldThumbnailInfo_0",
+					"Class": "uobject:/Script/UnrealEd.WorldThumbnailInfo",
+					"Flags": 8
+				}
+			},
+			"EditorViews": [
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 1427.8946719999999,
+						"Y": -239.42014,
+						"Z": 552.66215399999999
+					},
+					"CamRotation": {
+						"Pitch": -19.925000000000001,
+						"Yaw": -533.57500300000004,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				},
+				{
+					"CamPosition": {
+						"X": 0,
+						"Y": 0,
+						"Z": 0
+					},
+					"CamRotation": {
+						"Pitch": 0,
+						"Yaw": 0,
+						"Roll": 0
+					},
+					"CamOrthoZoom": 10000,
+					"CamUpdated": true
+				}
+			]
+		},
+		{
+			"__UObject": {
+				"Name": "brickHouseMap_C",
+				"Class": "uobject:/Script/Engine.BlueprintGeneratedClass",
+				"Flags": 9
+			},
+			"__SerialData": [
+				false,
+				"uobject:/Script/Engine.LevelScriptActor",
+				"AAAAAA==",
+				"AAAAAA==",
+				"AAAAAA==",
+				"AAAAAA==",
+				"AAAAAA==",
+				"AAAAAA==",
+				"BAKEAA==",
+				"uobject:/Script/CoreUObject.Object",
+				"Engine",
+				"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap:PersistentLevel.brickHouseMap",
+				"AAAAAA==",
+				false,
+				"None",
+				false,
+				"uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.Default__brickHouseMap_C"
+			]
+		},
+		{
+			"__UObject": {
+				"Name": "Default__brickHouseMap_C",
+				"Class": "uobject:/Game/LEC11-Animation-Blueprint/brickHouseMap.brickHouseMap_C",
+				"Flags": 49
+			}
+		}
+	],
+	"__PackageSummary": {
+		"__CustomVersions": [
+			{
+				"Key": "697DD581E64F41ABAA4A51ECBEB7B628",
+				"Version": 121
+			},
+			{
+				"Key": "59DA5D5212324948B878597870B8E98B",
+				"Version": 9
+			},
+			{
+				"Key": "D89B5E4224BD4D468412ACA8DF641779",
+				"Version": 61
+			},
+			{
+				"Key": "601D1886AC644F84AA16D3DE0DEAC7D6",
+				"Version": 225
+			},
+			{
+				"Key": "9C54D522A8264FBE9421074661B482D0",
+				"Version": 44
+			},
+			{
+				"Key": "9DFFBCD6494F0158E22112823C92A888",
+				"Version": 11
+			},
+			{
+				"Key": "1ED048F42F2E4C6889D053A4F18F102D",
+				"Version": 1
+			},
+			{
+				"Key": "CFFC743F43B04480939114DF171D2073",
+				"Version": 37
+			},
+			{
+				"Key": "E70863686B234C5884391B7016265E91",
+				"Version": 17
+			},
+			{
+				"Key": "12F88B9F88754AFCA67CD90C383ABD29",
+				"Version": 49
+			},
+			{
+				"Key": "B6E31B1CD29F11EC857E9F856F9970E2",
+				"Version": 1
+			},
+			{
+				"Key": "5B4C06B724634AF8805BBF70CDF5D0DD",
+				"Version": 15
+			},
+			{
+				"Key": "B02B49B5BB2044E9A30432B752E40360",
+				"Version": 3
+			},
+			{
+				"Key": "E4B068EDF49442E9A231DA0B2E46BB41",
+				"Version": 40
+			},
+			{
+				"Key": "B0D832E41F894F0DACCF7EB736FD4AA2",
+				"Version": 10
+			},
+			{
+				"Key": "29E575DDE0A346279D10D276232CDCEA",
+				"Version": 17
+			},
+			{
+				"Key": "375EC13C06E448FBB50084F0262A717E",
+				"Version": 4
+			}
+		]
+	}
+}
